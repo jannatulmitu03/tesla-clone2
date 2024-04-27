@@ -1,12 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+
     <title>Tesla Clone</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
-    
-</body>
+    <link rel="shortcut icon" href="./src/img/tesla_logo_icon_169601.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+
+  <body>
+    <main class="snap-feature">
+      <!-- header start  -->
+      <header class="relative">
+        <div class="nav-bar">
+          <div class="logo">
+            <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon h-6" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0 .1a9.7 9.7 0 007 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 007-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 006-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 00-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 13.8h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 14.1h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zM308.5 7h26a9.6 9.6 0 007-7h-40a9.6 9.6 0 007 7z" fill="currentColor"></path>
+            </svg>
+          </div>
+
+          <nav class="nav-items">
+            <a href="#ModelS" class="items">Model S</a>
+            <a href="#Model3" class="items">Model 3</a>
+            <a href="#ModelX" class="items">Model X</a>
+            <a href="#ModelY" class="items">Model Y</a>
+            <a href="#SolarRoof" class="items">Solar Roof</a>
+            <a href="#SolarPanel" class="items">Solar Panel</a>
+          </nav>
+
+          <div class="flex gap-5 capitalize">
+            <a href="#shop" class="items hidden lg:block">shop</a>
+            <a href="#account" class="items hidden lg:block">account</a>
+            <a href="#menu" class="items">menu</a>
+          </div>
+        </div>
+      </header>
+      <!-- header end  -->
+
+      <!--Model3-section start  -->
+      <section id="Model3" class="car-section">
+        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg" alt="" class="car-img"/>
+
+        <div class="hero-content">
+          <h1 class="heading">Model 3</h1>
+          <p class="content">
+            Order Online for <span class="underline">Touchless Delivery</span>
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="btn custom">custom order</a>
+          <a href="#" class="btn exist">existing enventory</a>
+        </div>
+
+        <div class="arrow">
+          <a href="#ModelX">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+            </svg>
+          </a>
+        </div>
+      </section>
+      <!-- Model3-section end  -->
+
+      <!-- ModelX-section start  -->
+      <section id="ModelX" class="car-section">
+        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png" alt="" class="car-img"/>
+
+        <div class="hero-content">
+          <h1 class="heading">Model X</h1>
+          <p class="content">
+            Order Online for <span class="underline">Touchless Delivery</span>
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="btn custom">custom order</a>
+          <a href="#" class="btn exist">existing enventory</a>
+        </div>
+
+        <div class="arrow">
+          <a href="#ModelY"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              /></svg>
+        </a>
+        </div>
+      </section>
+      <!-- ModelX-section end  -->
+
+      <!-- ModelY-section start  -->
+      <section id="ModelY" class="car-section">
+        <img
+          src="https://digitalassets-secure.tesla.com/image/upload/f_auto,q_auto/xufyfcvqhmq36szytod7.jpg"
+          alt=""
+          class="car-img"
+        />
+
+        <div class="hero-content">
+          <h1 class="heading">Model Y</h1>
+          <p class="content">
+            Order Online for <span class="underline">Touchless Delivery</span>
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="btn custom">custom order</a>
+          <a href="#" class="btn exist">existing enventory</a>
+        </div>
+
+        <div class="arrow">
+          <a href="#ModelS"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              /></svg>
+          </a>
+        </div>
+      </section>
+      <!-- ModelY-section end  -->
+
+      <!-- ModelS-section start  -->
+      <section id="ModelS" class="car-section">
+        <img
+          src="https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-X-Desktop-LHD"
+          alt=""
+          class="car-img"
+        />
+
+        <div class="hero-content">
+          <h1 class="heading">Model S</h1>
+          <p class="content">
+            Order Online for <span class="underline">Touchless Delivery</span>
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="btn custom">custom order</a>
+          <a href="#" class="btn exist">existing enventory</a>
+        </div>
+
+        <div class="arrow">
+          <a href="#SolarRoof"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              /></svg>
+          </a>
+        </div>
+      </section>
+      <!-- ModelS-section end  -->
+
+      <!-- SolarRoof-section start  -->
+      <section id="SolarRoof" class="car-section">
+        <img
+          src="https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global"
+          alt=""
+          class="car-img"
+        />
+
+        <div class="hero-content">
+          <h1 class="heading">Solar Roof</h1>
+          <p class="content">
+            Order Online for <span class="underline">Touchless Delivery</span>
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="btn custom">custom order</a>
+          <a href="#" class="btn exist">existing enventory</a>
+        </div>
+
+        <div class="arrow">
+          <a href="#SolarPanel"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              /></svg>
+          </a>
+        </div>
+      </section>
+      <!-- SolarPanel-section end  -->
+
+      <!-- SolarPanel-section start  -->
+      <section id="SolarPanel" class="car-section">
+        <img
+          src="https://tesla-cars-clone.web.app/static/media/solarpanels-mobile.d47e2a3ae1d5cf66cdf5.jpg"
+          alt=""
+          class="car-img"
+        />
+
+        <div class="hero-content">
+          <h1 class="heading">Solar Panel</h1>
+          <p class="content">
+            Order Online for <span class="underline">Touchless Delivery</span>
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="btn custom">custom order</a>
+          <a href="#" class="btn exist">existing enventory</a>
+        </div>
+
+        <div class="arrow">
+          <a href="#Model3"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              /></svg>
+          </a>
+        </div>
+      </section>
+      <!-- SolarPanel-section end  -->
+    </main>
+  </body>
 </html>
