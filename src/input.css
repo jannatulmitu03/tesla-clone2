@@ -20,7 +20,7 @@ html{
 @layer components{
 
     .snap-feature{
-        @apply snap-y snap-mandatory h-screen overflow-y-scroll
+        @apply snap-y snap-mandatory h-screen overflow-y-scroll transition-all duration-700 scroll-smooth
     }
 
     .nav-bar{

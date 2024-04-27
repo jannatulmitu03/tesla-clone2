@@ -559,6 +559,10 @@ video {
   scroll-snap-type: y var(--tw-scroll-snap-strictness);
   --tw-scroll-snap-strictness: mandatory;
   overflow-y: scroll;
+  scroll-behavior: smooth;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 700ms;
 }
 
 .nav-bar {
